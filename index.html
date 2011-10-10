@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<!--
+Google HTML5 slide template
+
+Authors: Luke Mahé (code)
+Marcin Wichary (code and design)
+
+Dominic Mazzoni (browser compatibility)
+Charles Chen (ChromeVox support)
+
+URL: http://code.google.com/p/html5slides/
+-->
+
+<html>
+  <head>
+    <title>Presentation</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='slides.js'></script>
+
+    <!-- Typekit -->
+    <script type="text/javascript" src="http://use.typekit.com/uep7uoz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+    what you want. */
+
+    .slides.template-uxebu {
+      text-rendering: optimizeLegibility;
+    }
+
+    .slides.template-uxebu > article {
+      font-family: ff-din-web-pro, sans-serif;
+    }
+
+    .slides.template-uxebu pre {
+      font-family: Inconsolata, monospace;
+    }
+
+    .slides.template-uxebu h1,
+    .slides.template-uxebu h2, 
+    .slides.template-uxebu h3,
+    .slides.template-uxebu code {
+      color: #fff;
+    }
+
+    .slides.template-uxebu a:hover {
+      color: #fff;
+    }
+
+    .slides.template-uxebu > article:not(.biglogo) {
+      /*background: url(images/google-logo-small.png) 710px 625px no-repeat;  */
+      background-color: black;
+      color: white;
+    }
+
+    .slides.template-uxebu article.biglogo {
+      background: black url(images/uxebu-logo-white.png) 50% 50% no-repeat;
+    }
+
+    .slides.template-uxebu article.fill h3 {
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    .align-center {
+      text-align: center;
+    }
+/*
+    .slides.template-uxebu .center-box {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+    }
+
+    .center-box p {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-box-pack: center;
+      -webkit-box-align: center;
+      -webkit-box-flex: 1;
+    }
+*/
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-uxebu'>
+
+    <article class='fill'>
+      <p>
+        <img src='images/intro.jpg'>
+      </p>
+    </article>
+
+    <article>
+      <h1>
+        FUTUREPROOF MOBILE
+        <br>
+        <blink>DEVELOPMENT</blink>
+      </h1>
+      <p>
+        Nikolai Onken / @nonken
+        <br>
+        October 9th, 2011
+      </p>
+    </article>
+
+    <article class='biglogo'></article>
+
+    <article class="fill" style="background: #fff">
+      <h3>
+        OMG THANX &lt;3
+      </h3>
+      <p>
+        <img class='centered' src='images/group.png'>
+      </p>
+    </article>
+
+    <article>
+      <h2>Some of the dark past</h2>
+    </article>
+
+
+    <article class="fill">
+      <h3>Nokia WRT - <3 HTML!</h3>
+      <p>
+        <img class='centered' src='images/nokiawrt.jpg'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>VF 360</h3>
+      <p>
+        <img class='centered' src='images/vf360.jpg'>
+      </p>
+      </article>
+
+    <article>
+      <h2>What changed?</h2>
+    </article>
+
+    <article class="fill" style="background: #fff">
+      <h3>The iPhone brought the first a-class browser to mobile</h3>
+      <p>
+        <img class='centered' style="width: 50%;" src='images/apple.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>And then there were beers</h3>
+      <p>
+        <img class='centered' src='images/nitobi.jpg'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>PhoneGap FTW - http://phonegap.com</h3>
+      <p>
+        <img class='centered' src='images/phonegap.png'>
+      </p>
+    </article>
+
+    <article>
+      <q>
+        The second goal of PhoneGap is for the project to cease to exist
+      </q>
+      <div class='author'>
+        Brian Leroux
+      </div>
+    </article>
+
+    <article>
+      <h2>Status quo - demos</h2>
+    </article>
+
+    <article>
+      <h3>
+        Lets get started
+      </h3>
+      <ul class="build">
+        <li>Runtimes</li>
+        <li>Libraries / Mobile architectures</li>
+        <li>Testing</li>
+        <li>Other tools</li>
+      </ul>
+      <p class="build">
+        <i>bonus</i>
+      </p>
+      <ul class="build">
+        <li>I will cover much of this in more detail on wednesday, come by if you want to start writing code</li>
+      </ul>
+    </article>
+
+    <article class="center-box">
+      <h3>
+        Runtimes omg
+      </h3>
+      <p>
+        <img class="centered" src="images/runtimes.png" style="margin-top: 80px;">
+      </p>
+    </article>
+
+    <article class="center-box">
+      <h3>
+        Don't cover all, stick to:
+      </h3>
+      <p>
+        <img class="centered" src="images/runtimesuse.png" style="margin-top: 80px;">
+      </p>
+    </article>
+
+    <article>
+      <h2>
+        Poll
+      </h2>
+    </article>
+
+    <article>
+      <h2>
+        How many of you have written an app for iOS?
+      </h2>
+    </article>
+
+    <article>
+      <h2>
+        How many of you have written an app for Android?
+      </h2>
+    </article>
+
+    <article>
+      <h2>
+        How many of you have written an app for WebOS?
+      </h2>
+    </article>
+
+    <article>
+      <h2>
+        How many of you have written an app for BlackBerry?
+      </h2>
+    </article>
+
+    <article></article>
+
+    <article class="fill">
+      <h3>Mobile devs <strong>can</strong> throw away a lot of baggage</h3>
+      <p>
+        <img class='centered' src='images/jdd.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>Use libraries - BUT think of them like:</h3>
+      <p>
+        <img class='centered' src='images/ideallib.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>So you can optimize the hell out of it:</h3>
+      <p>
+        <img class='centered' src='images/builtlib.png'>
+      </p>
+    </article>
+
+    <article>
+      <h2>Mobile frameworks, some things I love</h2>
+    </article>
+
+    <article class="fill">
+      <h3>EmbedJS / embedjs.org</h3>
+      <p>
+        <img src="images/embedjs.png" >
+      </p>
+    </article>
+
+    <article>
+      <h2>Work with features and consistent APIs. Don't branch your code to gap platform differences</h2>
+    </article>
+
+    <article>
+      <h3>Not cool</h3>
+      <p>
+        <img class="centered" src="images/feature.png" style="width: 80%; margin-top: 40px;">
+      </p>
+    </article>
+
+    <article>
+      <h3>How you roll</h3>
+      <p>
+        <img class="centered" src="images/featureok.png" style="width: 80%; margin-top: 120px;">
+      </p>
+    </article>
+
+    <article>
+      <h3>Example</h3>
+      <p class="centered" style="margin-top: 140px;">
+        <img src="images/picker.png" valign="middle" style="margin-right: 20px;"> and <img src="images/pickermouse.png" valign="middle" style="margin-left: 20px;">
+      </p>
+    </article>
+
+    <article>
+      <h3>Directory structure</h3>
+      <p class="centered align-center">
+        <img src="images/filesystem.png" style="margin: 70px 0 0 120px;" >
+      </p>
+    </article>
+
+    <article>
+      <h3>Feature implementation</h3>
+      <p class="centered" style="margin-top: 220px;">
+        <img src="images/featurebase.png" valign="middle" style="margin-right: 20px; width: 40%;"> and <img src="images/featureextended.png" valign="middle" style="margin-left: 20px; width: 40%;">
+      </p>
+    </article>
+
+    <article>
+      <h3>Feature mapping</h3>
+      <p>
+        <img class="centered" src="images/featuremapping.png" style="width: 80%; margin-top: 120px;" >
+      </p>
+    </article>
+
+    <article>
+      <h3>Developing with features</h3>
+      <p>
+        <img class="centered" src="images/featuredev.png" style="width: 90%; margin-top: 240px;" >
+      </p>
+    </article>
+
+    <article>
+      <h3>
+        Two ways you can run a build
+      </h3>
+      <ul class="build">
+        <li>Ship everything and do feature tests at runtime</li>
+        <li>Make targeted builds using specific implementations</li>
+      </ul>
+    </article>
+
+
+    <article>
+      <h3>Runtime detection (perfect for dev)</h3>
+      <p>
+        <img class="centered" src="images/featuremapping.png" style="width: 80%; margin: 120px 0 100px 0;">
+      </p>
+      <small>
+        ./buildj.sh name=../../src/js/main out=../../debug/js/main.js baseUrl=../../src/js/ <span style="color: red;">paths.implementations=implementations/dynamic</span> paths.feature=lib/feature
+      </small>
+    </article>
+
+
+    <article>
+      <h3>Build for deployment</h3>
+      <p>
+        <img class="centered" src="images/featurebuild.png" style="width: 80%; margin: 120px 0 100px 0;" >
+      </p>
+      <small>
+        ./buildj.sh name=../../src/js/main out=../../debug/js/main.js baseUrl=../../src/js/ <span style="color: red;">paths.implementations=implementations/touch</span> paths.feature=lib/feature
+      </small>
+    </article>
+
+    <article>
+      <h2>Feature demo</h2>
+    </article>
+
+    <article></article>
+
+    <article class="fill">
+      <h3>has.js / https://github.com/phiggins42/has.js/</h3>
+      <p>
+        <img src="images/has.png" >
+      </p>
+    </article>
+
+    <article></article>
+
+    <article style="background: #fff;">
+      <p><img class="centered" src="images/backbone.png" style="margin-top: 250px;"></p>
+    </article>
+
+    <article>
+      <h2>Backbone is not a framework, its awesome little tools for ya</h2>
+    </article>
+
+
+    <article>
+      <h3>Backbone events</h3>
+      <p><img class="centered" src="images/backboneevents.png" style="margin-top: 190px; width: 50%;" ></p>
+    </article>
+
+    <article>
+      <h3>Backbone models / collections</h3>
+      <p><img class="centered" src="images/backbonemodels.png" style="margin-top: 150px; width: 80%;" ></p>
+    </article>
+
+    <article>
+      <h3>Backbone views</h3>
+      <p><img class="centered" src="images/backboneviews.png" style="margin-top: 180px; width: 70%;" ></p>
+    </article>
+
+    <article>
+      <h3>Backbone router <3</h3>
+      <p><img class="centered" src="images/backbonerouter.png" style="margin-top: 180px; width: 70%;" ></p>
+    </article>
+
+    <article>
+      <h2>Only top secret demos, check backbone site for impressive stuff</h2>
+    </article>
+
+
+    <article></article>
+
+    <article>
+      <h2>Mobile testing</h2>
+    </article>
+
+    <article>
+      <h3>
+        Rules of thumb
+      </h3>
+      <ul class="build">
+        <li>Test on the desktop for as long as you can</li>
+        <li>Use webinspector, firebug, etc. to verify that stuff works</li>
+        <li>Test in the browser on the device</li>
+        <li>Test the built version of your app, on the desktop</li>
+        <li>Test the built version on the device</li>
+        <li>Package and test the package if you need to</li>
+        <li>Again test as long as you can on the device, but don't forget to reference check regularly on the device</li>
+      </ul>
+    </article>
+
+    <article class="fill">
+      <h3>Weinre - http://phonegap.github.com/weinre</h3>
+      <p>
+        <img class='centered' src='images/weinre.png'>
+      </p>
+    </article>
+
+    <article>
+      <h2>Weinre demo</h2>
+    </article>
+
+
+    <article class="fill">
+      <h3>alert() - oh noes</h3>
+      <p>
+        <img src="images/alert.png" class="centered">
+      </p>
+    </article>
+
+    <article></article>
+
+    <article>
+      <h2>Other cool stuff</h2>
+    </article>
+
+    <article class="fill">
+      <h3>Zeon - http://zeonjs.com / https://github.com/qfox/zeon</h3>
+      <p>
+        <img class='centered' src='images/peter.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>Ripple - http://ripple.tinyhippos.com</h3>
+      <p>
+        <img class='centered' src='images/ripple.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>Distimo app store analytics - http://distimo.com</h3>
+      <p>
+        <img class='centered' src='images/distimo.png'>
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>Extend PhoneGap like hell - lets watch some video</h3>
+      <p>
+        http://humanapi.org (I am not really maintaining it :( )
+      </p>
+    </article>
+
+    <article class="fill">
+      <h3>The future?</h3>
+      <p>
+        <img class='centered' src='images/kirk.jpg'>
+      </p>
+    </article>
+
+    <article>
+      <h2>Thank you for having me here</h2>
+      <p>Credits:</p>
+      <ul>
+        <li>http://www.flickr.com/photos/marilink/4120848656</li>
+        <li>http://www.flickr.com/photos/tacoekkel/25538919</li>
+        <li>http://www.flickr.com/photos/hugo90/3916794427</li>
+      </ul>
+    </article>
+
+    </section>
+
+    <script type="text/javascript">
+      [].slice.call(document.getElementsByTagName('blink')).forEach(function(el){
+          var toggle = function() {
+          el.style.opacity = '0';
+          setTimeout(function(){
+            el.style.opacity = '1';
+            setTimeout(function(){
+              toggle();
+              }, ~~(Math.random()*100));
+            }, ~~(Math.random()*1000));
+          };
+          toggle();
+          });
+        </script>
+
+      </body>
+    </html>
